@@ -1,0 +1,5 @@
+Create "desk" (list) that has 52 "cards" (objects) total
+Create "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", and "King" 
+Append of "Clubs", "Diamonds", "Hearts", and "Spades" to each of those once per suit
+Shuffle the deck
+Display top 2 cards
