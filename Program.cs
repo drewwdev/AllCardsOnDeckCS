@@ -7,35 +7,35 @@ namespace AllCardsOnDeckCS
     {
         static void Main(string[] args)
         {
-            var deckRanks = new List<string>() { };
-            deckRanks.Add("Ace ");
-            deckRanks.Add("2 ");
-            deckRanks.Add("3 ");
-            deckRanks.Add("4 ");
-            deckRanks.Add("5 ");
-            deckRanks.Add("6 ");
-            deckRanks.Add("7 ");
-            deckRanks.Add("8 ");
-            deckRanks.Add("9 ");
-            deckRanks.Add("10 ");
-            deckRanks.Add("Jack ");
-            deckRanks.Add("Queen ");
-            deckRanks.Add("King ");
+            var Ranks = new List<string>() { };
+            Ranks.Add("Ace");
+            Ranks.Add("2");
+            Ranks.Add("3");
+            Ranks.Add("4");
+            Ranks.Add("5");
+            Ranks.Add("6");
+            Ranks.Add("7");
+            Ranks.Add("8");
+            Ranks.Add("9");
+            Ranks.Add("10");
+            Ranks.Add("Jack");
+            Ranks.Add("Queen");
+            Ranks.Add("King");
 
-            var deckSuits = new List<string>() { };
-            deckSuits.Add("of Clubs");
-            deckSuits.Add("of Diamonds");
-            deckSuits.Add("of Hearts");
-            deckSuits.Add("of Spades");
+            var Suits = new List<string>() { };
+            Suits.Add("Clubs");
+            Suits.Add("Diamonds");
+            Suits.Add("Hearts");
+            Suits.Add("Spades");
 
             var deck = new List<string>() { };
 
             Console.WriteLine();
-            foreach (string rank in deckRanks)
+            foreach (string rank in Ranks)
             {
-                foreach (string suit in deckSuits)
+                foreach (string suit in Suits)
                 {
-                    deck.Add($"{rank}{suit}");
+                    deck.Add($"{rank} of {suit}");
                 }
             }
 
